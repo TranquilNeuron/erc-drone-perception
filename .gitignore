@@ -1,0 +1,5 @@
+erc_ws/build/
+erc_ws/install/
+erc_ws/log/
+__pycache__/
+*.pyc
