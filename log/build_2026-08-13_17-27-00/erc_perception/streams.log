@@ -1,0 +1,26 @@
+[1.310s] Invoking command in '/home/sar/erc/erc_ws/src/erc_perception': PYTHONPATH=/home/sar/erc/build/erc_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sar/erc/install/erc_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_perception build --build-base /home/sar/erc/build/erc_perception/build install --record /home/sar/erc/build/erc_perception/install.log --install-scripts $base/lib/erc_perception --single-version-externally-managed install_data
+[1.826s] running egg_info
+[1.827s] writing ../../../build/erc_perception/erc_perception.egg-info/PKG-INFO
+[1.828s] writing dependency_links to ../../../build/erc_perception/erc_perception.egg-info/dependency_links.txt
+[1.828s] writing entry points to ../../../build/erc_perception/erc_perception.egg-info/entry_points.txt
+[1.828s] writing requirements to ../../../build/erc_perception/erc_perception.egg-info/requires.txt
+[1.829s] writing top-level names to ../../../build/erc_perception/erc_perception.egg-info/top_level.txt
+[1.834s] reading manifest file '../../../build/erc_perception/erc_perception.egg-info/SOURCES.txt'
+[1.836s] writing manifest file '../../../build/erc_perception/erc_perception.egg-info/SOURCES.txt'
+[1.836s] running build
+[1.836s] running build_py
+[1.837s] copying erc_perception/probe_node.py -> /home/sar/erc/build/erc_perception/build/lib/erc_perception
+[1.837s] running install
+[1.838s] running install_lib
+[1.839s] copying /home/sar/erc/build/erc_perception/build/lib/erc_perception/probe_node.py -> /home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception
+[1.841s] byte-compiling /home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception/probe_node.py to probe_node.cpython-310.pyc
+[1.846s] running install_data
+[1.846s] running install_egg_info
+[1.850s] removing '/home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception-0.0.0-py3.10.egg-info' (and everything under it)
+[1.850s] Copying ../../../build/erc_perception/erc_perception.egg-info to /home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception-0.0.0-py3.10.egg-info
+[1.853s] running install_scripts
+[1.896s] Installing aruco_node script to /home/sar/erc/install/erc_perception/lib/erc_perception
+[1.896s] Installing depth_check script to /home/sar/erc/install/erc_perception/lib/erc_perception
+[1.896s] Installing probe_node script to /home/sar/erc/install/erc_perception/lib/erc_perception
+[1.897s] writing list of installed files to '/home/sar/erc/build/erc_perception/install.log'
+[1.957s] Invoked command in '/home/sar/erc/erc_ws/src/erc_perception' returned '0': PYTHONPATH=/home/sar/erc/build/erc_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sar/erc/install/erc_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_perception build --build-base /home/sar/erc/build/erc_perception/build install --record /home/sar/erc/build/erc_perception/install.log --install-scripts $base/lib/erc_perception --single-version-externally-managed install_data

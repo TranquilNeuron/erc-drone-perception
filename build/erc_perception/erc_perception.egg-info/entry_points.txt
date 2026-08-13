@@ -1,0 +1,5 @@
+[console_scripts]
+aruco_node = erc_perception.aruco_node:main
+depth_check = erc_perception.depth_check:main
+probe_node = erc_perception.probe_node:main
+

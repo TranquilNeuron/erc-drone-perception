@@ -7,7 +7,7 @@ from sensor_msgs.msg import Image, CompressedImage
 from geometry_msgs.msg import PoseArray, Pose
 from cv_bridge import CvBridge
 
-DEBUG = False       # True -> reject boxes, per-candidate metrics, mask topic
+DEBUG = True      # True -> reject boxes, per-candidate metrics, mask topic
 
 # --- intrinsics + depth calibration (720p; re-read camera_info if you change res) ---
 FX, FY = 797.7728881835938, 797.6380004882812
@@ -15,7 +15,7 @@ CX, CY = 620.0264282226562, 330.038330078125
 DISP_OFFSET = 0.039
 
 # --- color ---
-LOWER = np.array([35, 50, 40]); UPPER = np.array([70, 255, 255])
+LOWER = np.array([30, 50, 40]); UPPER = np.array([91, 255, 255])
 
 # --- morphology ---
 OPEN_SIZE, CLOSE_SIZE = 3, 25
@@ -23,7 +23,7 @@ OPEN_SIZE, CLOSE_SIZE = 3, 25
 # --- detection filters ---
 MIN_AREA, MIN_ASPECT = 100, 2.5
 SOLIDITY_MIN, EXTENT_MAX = 0.70, 0.90
-USE_HU, HU_MAX = True, 2.5
+USE_HU, HU_MAX = True, 4
 LEN_MIN, LEN_MAX = 0.10, 0.30
 WID_MIN, WID_MAX = 0.003, 0.06
 PATCH = 5

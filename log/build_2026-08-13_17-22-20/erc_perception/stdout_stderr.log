@@ -1,0 +1,45 @@
+running egg_info
+creating ../../../build/erc_perception/erc_perception.egg-info
+writing ../../../build/erc_perception/erc_perception.egg-info/PKG-INFO
+writing dependency_links to ../../../build/erc_perception/erc_perception.egg-info/dependency_links.txt
+writing entry points to ../../../build/erc_perception/erc_perception.egg-info/entry_points.txt
+writing requirements to ../../../build/erc_perception/erc_perception.egg-info/requires.txt
+writing top-level names to ../../../build/erc_perception/erc_perception.egg-info/top_level.txt
+writing manifest file '../../../build/erc_perception/erc_perception.egg-info/SOURCES.txt'
+reading manifest file '../../../build/erc_perception/erc_perception.egg-info/SOURCES.txt'
+writing manifest file '../../../build/erc_perception/erc_perception.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sar/erc/build/erc_perception/build
+creating /home/sar/erc/build/erc_perception/build/lib
+creating /home/sar/erc/build/erc_perception/build/lib/erc_perception
+copying erc_perception/__init__.py -> /home/sar/erc/build/erc_perception/build/lib/erc_perception
+copying erc_perception/aruco_node.py -> /home/sar/erc/build/erc_perception/build/lib/erc_perception
+copying erc_perception/depth_check.py -> /home/sar/erc/build/erc_perception/build/lib/erc_perception
+copying erc_perception/probe_node.py -> /home/sar/erc/build/erc_perception/build/lib/erc_perception
+running install
+running install_lib
+creating /home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception
+copying /home/sar/erc/build/erc_perception/build/lib/erc_perception/__init__.py -> /home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception
+copying /home/sar/erc/build/erc_perception/build/lib/erc_perception/aruco_node.py -> /home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception
+copying /home/sar/erc/build/erc_perception/build/lib/erc_perception/depth_check.py -> /home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception
+copying /home/sar/erc/build/erc_perception/build/lib/erc_perception/probe_node.py -> /home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception
+byte-compiling /home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception/aruco_node.py to aruco_node.cpython-310.pyc
+byte-compiling /home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception/depth_check.py to depth_check.cpython-310.pyc
+byte-compiling /home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception/probe_node.py to probe_node.cpython-310.pyc
+running install_data
+creating /home/sar/erc/install/erc_perception/share/ament_index
+creating /home/sar/erc/install/erc_perception/share/ament_index/resource_index
+creating /home/sar/erc/install/erc_perception/share/ament_index/resource_index/packages
+copying resource/erc_perception -> /home/sar/erc/install/erc_perception/share/ament_index/resource_index/packages
+copying package.xml -> /home/sar/erc/install/erc_perception/share/erc_perception
+creating /home/sar/erc/install/erc_perception/share/erc_perception/launch
+copying launch/perception.launch.py -> /home/sar/erc/install/erc_perception/share/erc_perception/launch
+running install_egg_info
+Copying ../../../build/erc_perception/erc_perception.egg-info to /home/sar/erc/install/erc_perception/lib/python3.10/site-packages/erc_perception-0.0.0-py3.10.egg-info
+running install_scripts
+Installing aruco_node script to /home/sar/erc/install/erc_perception/lib/erc_perception
+Installing depth_check script to /home/sar/erc/install/erc_perception/lib/erc_perception
+Installing probe_node script to /home/sar/erc/install/erc_perception/lib/erc_perception
+writing list of installed files to '/home/sar/erc/build/erc_perception/install.log'
